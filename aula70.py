@@ -11,5 +11,5 @@ while i<len(frase):
     if letra_count<=frase.count(frase[i]) :
         letra=frase[i]
         letra_count=frase.count(frase[i])
-    i=i+1
+    i+=1
 print(f'A letra {letra} aparece {letra_count} vezes!')
